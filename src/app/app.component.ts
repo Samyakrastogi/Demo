@@ -7,4 +7,28 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Demo';
+  // name = {
+  //   fname : 'Samyak',
+  //   lname : "Rastogi"
+  // };
+  // naam = "Samyak hai mera  naam"
+  // getName(){
+  //   return this.name.lname;
+  // }
+  // array = ['Samyak','rohan','mohan'];
+  // a=100;
+  // b=200;
+  // siteURL = window.location.href
+
+  // function call on button click
+  getGender(gender : any)
+  {
+    alert(gender);
+  }
+
+  // Events in Angular
+  // myEvent(){
+  //   console.warn()
+  // }
+
 }
